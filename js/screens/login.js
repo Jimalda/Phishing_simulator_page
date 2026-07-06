@@ -13,13 +13,13 @@ function renderLogin(container, onLogin) {
   const box = document.createElement("div");
   box.className = "login-box";
 
-  box.innerHTML = `
-    <div class="eyebrow">Made by Junior Sarr</div>
+  box.innerHTML = 
+    <div class="eyebrow">Ignore the Bait</div>
     <h1 class="page-title">Phishing Simulator and Training</h1>
     <p class="page-subtitle" style="margin: 8px auto 0;">
       Pick your name to continue, or add yourself to the class list.
     </p>
-  `;
+  ;
 
   const card = document.createElement("div");
   card.className = "card";
