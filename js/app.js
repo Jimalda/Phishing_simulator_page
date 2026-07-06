@@ -52,7 +52,7 @@ class App {
     const header = document.createElement("div");
     header.className = "sidebar-header";
     header.innerHTML = `
-      <div class="sidebar-brand">\uD83C\uDFA3 PhishTrain <span class="tag">TRAINING</span></div>
+      <div class="sidebar-brand">\uD83C\uDFA3 Ignore the Bait <span class="tag">TRAINING</span></div>
       <div class="sidebar-user">Signed in as ${escapeHtml(this.user.name)}</div>
     `;
     sidebar.appendChild(header);
