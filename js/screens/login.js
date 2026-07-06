@@ -14,8 +14,8 @@ function renderLogin(container, onLogin) {
   box.className = "login-box";
 
   box.innerHTML = `
-    <div class="eyebrow">PhishTrain</div>
-    <h1 class="page-title">Security Awareness Training</h1>
+    <div class="eyebrow">Made by Junior Sarr</div>
+    <h1 class="page-title">Phishing Simulator and Training</h1>
     <p class="page-subtitle" style="margin: 8px auto 0;">
       Pick your name to continue, or add yourself to the class list.
     </p>
@@ -84,7 +84,7 @@ function renderLogin(container, onLogin) {
   addLabel.className = "muted";
   addLabel.style.marginBottom = "8px";
   addLabel.style.fontSize = "13.5px";
-  addLabel.textContent = "New here? Add your name:";
+  addLabel.textContent = "First time? Add your name:";
   card.appendChild(addLabel);
 
   const form = document.createElement("div");
